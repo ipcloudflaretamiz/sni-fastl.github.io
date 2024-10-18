@@ -1,8 +1,9 @@
 sni فستلی
 
 <!DOCTYPE html>
-<html>
+<html lang="fa">
 <head>
+    <meta charset="UTF-8">
     <title>لیست دامنه‌ها</title>
 </head>
 <body>
