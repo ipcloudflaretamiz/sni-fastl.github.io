@@ -3,314 +3,326 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Copy Domains</title>
+<script>
+function copyToClipboard(text) {
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+  alert('Copied: ' + text);
+}
+</script>
 </head>
 <body>
-<pre><code class="language-bash">
-atrapalotickets.com
-autokinetix.com
-awarasleep.com
-b-corsairs.com
-barronscustomevents.com
-bayren.org
-bck.club
-bclead2023.com
-better-credit.org
-bg.com
-blauer.com
-blend.com
-blocsky.com
-buildingcollapselawfirm.com
-campanhapurina.com
-carmeusena.com
-ccpsx.com
-chevronenergyopenhouse.com
-chevronwinsforkids.com
-chimebank.com
-cityvisionaryawards.com
-civilwar.org
-classicmoviesandtvshows.com
-cleancreditmatters.com
-cleanorigin.com
-clearcreditrepair.com
-cmtsld.com
-coloradocoalition.org
-compare99.com
-condenastdigital.de
-connectcloudone.com
-creditcards.com
-creditera.com
-creditrepair.com
-cupe.ca
-curbed.dev
-damonbraces.com
-data.new
-data.world
-datacatalog.new
-dataproject.new
-datasets.new
-deafl.org
-defendyourcredit.com
-dictionary.com
-dioramas.space
-discovercars.com
-disruptorcomedy.com
-districtcamera.com
-dreamcloudsleep.com
-dreamstreetretreat.com
-drinkmore-water.com
-dtcx.events
-dunelm.com
-elevatedthird.com
-emailage.app
-emailage.biz
-emailage.network
-emailriskscore.com
-enphase.com
-envistaco.com
-equalitylounge.com
-escapethedoomscroll.com
-ethicalstudios.com
-euskadiirratia.com
-euskaltelebista.com
-examplehost.foo
-fallcreekchiro.com
-farmcreditcfl.com
-farmcreditofnc.com
-faro-biz.com
-fb-assets.com
-fidelitywebinars.com
-fieldoflightnyc.com
-filestack.com
-fircosoft.com
-firstsouthfarmcredit.com
-fisionevents.com
-flextires.com
-floodinsurancelawsuit.com
-foodismedicineevents.com
-forhers.info
-fragilex.org
-gaztea.com
-getfluentco.com
-ggcircuit.com
-ggrock.com
-give2sf.org
-glenfiddichseries.com
-gosfs.com
-grubhubgoods.com
-headlineactswine.com
-healthactionsummit2024.com
-helanmountain.com
-hennessyreimagines.rsvp
-hfpa.org
-himshers.com
-hiresuccess.com
-hooplatickets.dev
-housingforhealthevents.com
-howdypartner.net
-howitendswatchnow.com
-iconiqascent.com
-idatalinkmaestro.com
-idpcon.com
-internationalsocietyofcitriculture.org
-jennarationboutique.com
-kcts9.org
-killtonylive.com
-kristenlott.com
-lamp.io
-lbfastly.com
-leonidas.com
-lex123.com
-lexico.com
-lexisnexisrisk.com
-lexlawaz.com
-lexlawde.com
-lexlawla.com
-lexlawms.com
-lexlawoh.com
-lexlawsc.com
-lexlawva.com
-lexlawwa.com
-lexlawwi.com
-lhasaoms.com
-lifeisbetterwithgoodcredit.com
-lillet.com
-lilyskitchen.com
-linktr.ee
-linktree.new
-live100blackmenmmg.online
-llngd.com
-loceryl.com
-lso.app
-maggi.ba
-maggi.bg
-maggi.my
-maggi.ph
-maggiarabia.com
-magosedai.com
-mancrates.com
-matboardandmore.com
-material.events
-mcimmersive.com
-metahealthrsvp.com
-microsofttrainingretreat.com
-mideastglobalsummit.com
-midletonveryrarecaskcircle.com
-mindvalley.biz
-minnanoshare.net
-mme.app
-modernluxuryevents.com
-mojrecept.rs
-mrbeasleys.com
-mylexingtonlawstory.com
-myprintacademy.com
-nationlaw.com
-nescafe.bg
-nescafe.com
-nescafe.com.ph
-nescafe.dk
-nescafe.pt
-nescafe.sk
-nestlehealthscience.dk
-nestlehealthscience.vn
-nio-apps.com
-nmgops.com
-nowevenfaster.com
-nuula.com
-nwadg.news
-nxdfrontend.com
-omegaweblink.com
-oneorangefoundation.org
-ontariocolleges.ca
-openingceremonydc.com
-orain.eus
-orderlegend.shop
-ormco.com
-palantir.events
-parsonsbenefit.com
-partylitegifts.de
-pinterestcannes.com
-pinterestpinvision.com
-powerofwomenssports.com
-purina.bg
-purina.ee
-purina.no
-purina.rs
-pursuit.tips
-quantumleapcon.com
-quickcreditimprovement.com
-radiusnetworks.com
-rasmus.app
-reconnectionslocal.org
-redbee.dev
-redbrain.live
-redbrain.shopping
-redbrain.store
-restoremyreport.com
-retty.me
-revolutionit.com
-revolutiontalk.net
-ripplelabs.com
-robertwalters.pt
-robertwalters.us
-robertwaltersafrica.com
-rokuevents.com
-routefifty.com
-rushlimbaugh.com
-rwcsrupgrade.com
-s2gsummit.com
-sactownhall2024.com
-safervpn.biz
-sakshinarang.net
-saltonebula.com
-samsara-events.com
-sandiagolfclub.com
-sbud.com
-scotchbrandgiftingsuite.com
-seattlecca.com
-securitieslawfirm.com
-sfm.us
-shopaddi.com
-shopdiscountdivas.com
-shopflauntboutique.com
-shopistic.com
-shoptarahsutton.com
-sienasleep.com
-six.app
-smoothfriend.press
-song.link
-sp-acceptance.net
-sp.trade
-sparkylabs.photo
-splashdevelop.com
-spofadental.com
-starbucksathome.com
-startup-insider.com
-stlawrencecollege.ca
-stripe.events
-stylerange.com
-sunrise-collective.org
-swiftypestatus.com
-synocommunity.com
-tangeloparklawsuit.com
-teads.events
-teamster.org
-techgcmaforum.com
-teleberri.com
-theatlantic.com
-theatln.tc
-theblocsciencefoundry.com
-theblocvaluebuilders.com
-theconvivialist.com
-thedigitailor.com
-thefork.dk
-themat.com
-thetylt.com
-thewire.com
-thudio.org
-truffaut.city
-trustedcreditfix.com
-turnitin.com
-ufc.com
-ufc.ru
-ufcespanol.com
-ufldefenders.com
-uflpanthers.com
-usa-taekwondo.us
-usafencing.net
-usafencing.org
-usaluge.org
-usankf.org
-usparacycling.org
-usparalympicsswimming.org
-usparalympicstf.org
-usparalympicstrackandfield.org
-usparaswimming.org
-usparatrackandfield.org
-ustudiopages.com
-uwaterloo.ca
-vaneckevents.com
-velilla-group.com
-vice.video
-vicestudiosgroup.com
-videostreamer.net
-vmgrestructuring.com
-voguebusinessstaging.com
-vroom.pics
-wahoofitness.com
-wallawallasothebysinternationalrealty.com
-warriors.kiwi
-wcms.dev
-whereisourgold.com
-wikia.dev
-wmuesports.com
-wppexperiences.com
-wsjprocyberwebinars.com
-xflroughnecks.com
-xn--3dsyxn9m4v1d.com
-xn--rdekors-q1a.dk
-youthonrecord.org
-zennailandbar.com
-zondratv.com
-</code></pre>
+<ul>
+  <li>atrapalotickets.com <button onclick="copyToClipboard('atrapalotickets.com')">کپی</button></li>
+  <li>autokinetix.com <button onclick="copyToClipboard('autokinetix.com')">کپی</button></li>
+  <li>awarasleep.com <button onclick="copyToClipboard('awarasleep.com')">کپی</button></li>
+  <li>b-corsairs.com <button onclick="copyToClipboard('b-corsairs.com')">کپی</button></li>
+  <li>barronscustomevents.com <button onclick="copyToClipboard('barronscustomevents.com')">کپی</button></li>
+  <li>bayren.org <button onclick="copyToClipboard('bayren.org')">کپی</button></li>
+  <li>bck.club <button onclick="copyToClipboard('bck.club')">کپی</button></li>
+  <li>bclead2023.com <button onclick="copyToClipboard('bclead2023.com')">کپی</button></li>
+  <li>better-credit.org <button onclick="copyToClipboard('better-credit.org')">کپی</button></li>
+  <li>bg.com <button onclick="copyToClipboard('bg.com')">کپی</button></li>
+  <li>blauer.com <button onclick="copyToClipboard('blauer.com')">کپی</button></li>
+  <li>blend.com <button onclick="copyToClipboard('blend.com')">کپی</button></li>
+  <li>blocsky.com <button onclick="copyToClipboard('blocsky.com')">کپی</button></li>
+  <li>buildingcollapselawfirm.com <button onclick="copyToClipboard('buildingcollapselawfirm.com')">کپی</button></li>
+  <li>campanhapurina.com <button onclick="copyToClipboard('campanhapurina.com')">کپی</button></li>
+  <li>carmeusena.com <button onclick="copyToClipboard('carmeusena.com')">کپی</button></li>
+  <li>ccpsx.com <button onclick="copyToClipboard('ccpsx.com')">کپی</button></li>
+  <li>chevronenergyopenhouse.com <button onclick="copyToClipboard('chevronenergyopenhouse.com')">کپی</button></li>
+  <li>chevronwinsforkids.com <button onclick="copyToClipboard('chevronwinsforkids.com')">کپی</button></li>
+  <li>chimebank.com <button onclick="copyToClipboard('chimebank.com')">کپی</button></li>
+  <li>cityvisionaryawards.com <button onclick="copyToClipboard('cityvisionaryawards.com')">کپی</button></li>
+  <li>civilwar.org <button onclick="copyToClipboard('civilwar.org')">کپی</button></li>
+  <li>classicmoviesandtvshows.com <button onclick="copyToClipboard('classicmoviesandtvshows.com')">کپی</button></li>
+  <li>cleancreditmatters.com <button onclick="copyToClipboard('cleancreditmatters.com')">کپی</button></li>
+  <li>cleanorigin.com <button onclick="copyToClipboard('cleanorigin.com')">کپی</button></li>
+  <li>clearcreditrepair.com <button onclick="copyToClipboard('clearcreditrepair.com')">کپی</button></li>
+  <li>cmtsld.com <button onclick="copyToClipboard('cmtsld.com')">کپی</button></li>
+  <li>coloradocoalition.org <button onclick="copyToClipboard('coloradocoalition.org')">کپی</button></li>
+  <li>compare99.com <button onclick="copyToClipboard('compare99.com')">کپی</button></li>
+  <li>condenastdigital.de <button onclick="copyToClipboard('condenastdigital.de')">کپی</button></li>
+  <li>connectcloudone.com <button onclick="copyToClipboard('connectcloudone.com')">کپی</button></li>
+  <li>creditcards.com <button onclick="copyToClipboard('creditcards.com')">کپی</button></li>
+  <li>creditera.com <button onclick="copyToClipboard('creditera.com')">کپی</button></li>
+  <li>creditrepair.com <button onclick="copyToClipboard('creditrepair.com')">کپی</button></li>
+  <li>cupe.ca <button onclick="copyToClipboard('cupe.ca')">کپی</button></li>
+  <li>curbed.dev <button onclick="copyToClipboard('curbed.dev')">کپی</button></li>
+  <li>damonbraces.com <button onclick="copyToClipboard('damonbraces.com')">کپی</button></li>
+  <li>data.new <button onclick="copyToClipboard('data.new')">کپی</button></li>
+  <li>data.world <button onclick="copyToClipboard('data.world')">کپی</button></li>
+  <li>datacatalog.new <button onclick="copyToClipboard('datacatalog.new')">کپی</button></li>
+  <li>dataproject.new <button onclick="copyToClipboard('dataproject.new')">کپی</button></li>
+  <li>datasets.new <button onclick="copyToClipboard('datasets.new')">کپی</button></li>
+  <li>deafl.org <button onclick="copyToClipboard('deafl.org')">کپی</button></li>
+  <li>defendyourcredit.com <button onclick="copyToClipboard('defendyourcredit.com')">کپی</button></li>
+  <li>dictionary.com <button onclick="copyToClipboard('dictionary.com')">کپی</button></li>
+  <li>dioramas.space <button onclick="copyToClipboard('dioramas.space')">کپی</button></li>
+  <li>discovercars.com <button onclick="copyToClipboard('discovercars.com')">کپی</button></li>
+  <li>disruptorcomedy.com <button onclick="copyToClipboard('disruptorcomedy.com')">کپی</button></li>
+  <li>districtcamera.com <button onclick="copyToClipboard('districtcamera.com')">کپی</button></li>
+  <li>dreamcloudsleep.com <button onclick="copyToClipboard('dreamcloudsleep.com')">کپی</button></li>
+  <li>dreamstreetretreat.com <button onclick="copyToClipboard('dreamstreetretreat.com')">کپی</button></li>
+  <li>drinkmore-water.com <button onclick="copyToClipboard('drinkmore-water.com')">کپی</button></li>
+  <li>dtcx.events <button onclick="copyToClipboard('dtcx.events')">کپی</button></li>
+  <li>dunelm.com <button onclick="copyToClipboard('dunelm.com')">کپی</button></li>
+  <li>elevatedthird.com <button onclick="copyToClipboard('elevatedthird.com')">کپی</button></li>
+  <li>emailage.app <button onclick="copyToClipboard('emailage.app')">کپی</button></li>
+  <li>emailage.biz <button onclick="copyToClipboard('emailage.biz')">کپی</button></li>
+  <li>emailage.network <button onclick="copyToClipboard('emailage.network')">کپی</button></li>
+  <li>emailriskscore.com <button onclick="copyToClipboard('emailriskscore.com')">کپی</button></li>
+  <li>enphase.com <button onclick="copyToClipboard('enphase.com')">کپی</button></li>
+  <li>envistaco.com <button onclick="copyToClipboard('envistaco.com')">کپی</button></li>
+  <li>equalitylounge.com <button onclick="copyToClipboard('equalitylounge.com')">کپی</button></li>
+  <li>escapethedoomscroll.com <button onclick="copyToClipboard('escapethedoomscroll.com')">کپی</button></li>
+  <li>ethicalstudios.com <button onclick="copyToClipboard('ethicalstudios.com')">کپی</button></li>
+  <li>euskadiirratia.com <button onclick="copyToClipboard('euskadiirratia.com')">کپی</button></li>
+  <li>euskaltelebista.com <button onclick="copyToClipboard('euskaltelebista.com')">کپی</button></li>
+  <li>examplehost.foo <button onclick="copyToClipboard('examplehost.foo')">کپی</button></li>
+  <li>fallcreekchiro.com <button onclick="copyToClipboard('fallcreekchiro.com')">کپی</button></li>
+  <li>farmcreditcfl.com <button onclick="copyToClipboard('farmcreditcfl.com')">کپی</button></li>
+  <li>farmcreditofnc.com <button onclick="copyToClipboard('farmcreditofnc.com')">کپی</button></li>
+  <li>faro-biz.com <button onclick="copyToClipboard('faro-biz.com')">کپی</button></li>
+  <li>fb-assets.com <button onclick="copyToClipboard('fb-assets.com')">کپی</button></li>
+  <li>fidelitywebinars.com <button onclick="copyToClipboard('fidelitywebinars.com')">کپی</button></li>
+  <li>fieldoflightnyc.com <button onclick="copyToClipboard('fieldoflightnyc.com')">کپی</button></li>
+  <li>filestack.com <button onclick="copyToClipboard('filestack.com')">کپی</button></li>
+  <li>fircosoft.com <button onclick="copyToClipboard('fircosoft.com')">کپی</button></li>
+  <li>firstsouthfarmcredit.com <button onclick="copyToClipboard('firstsouthfarmcredit.com')">کپی</button></li>
+  <li>fisionevents.com <button onclick="copyToClipboard('fisionevents.com')">کپی</button></li>
+  <li>flextires.com <button onclick="copyToClipboard('flextires.com')">کپی</button></li>
+  <li>floodinsurancelawsuit.com <button onclick="copyToClipboard('floodinsurancelawsuit.com')">کپی</button></li>
+  <li>foodismedicineevents.com <button onclick="copyToClipboard('foodismedicineevents.com')">کپی</button></li>
+  <li>forhers.info <button onclick="copyToClipboard('forhers.info')">کپی</button></li>
+  <li>fragilex.org <button onclick="copyToClipboard('fragilex.org')">کپی</button></li>
+  <li>gaztea.com <button onclick="copyToClipboard('gaztea.com')">کپی</button></li>
+  <li>getfluentco.com <button onclick="copyToClipboard('getfluentco.com')">کپی</button></li>
+  <li>ggcircuit.com <button onclick="copyToClipboard('ggcircuit.com')">کپی</button></li>
+  <li>ggrock.com <button onclick="copyToClipboard('ggrock.com')">کپی</button></li>
+  <li>give2sf.org <button onclick="copyToClipboard('give2sf.org')">کپی</button></li>
+  <li>glenfiddichseries.com <button onclick="copyToClipboard('glenfiddichseries.com')">کپی</button></li>
+  <li>gosfs.com <button onclick="copyToClipboard('gosfs.com')">کپی</button></li>
+  <li>grubhubgoods.com <button onclick="copyToClipboard('grubhubgoods.com')">کپی</button></li>
+  <li>headlineactswine.com <button onclick="copyToClipboard('headlineactswine.com')">کپی</button></li>
+  <li>healthactionsummit2024.com <button onclick="copyToClipboard('healthactionsummit2024.com')">کپی</button></li>
+  <li>helanmountain.com <button onclick="copyToClipboard('helanmountain.com')">کپی</button></li>
+  <li>hennessyreimagines.rsvp <button onclick="copyToClipboard('hennessyreimagines.rsvp')">کپی</button></li>
+  <li>hfpa.org <button onclick="copyToClipboard('hfpa.org')">کپی</button></li>
+  <li>himshers.com <button onclick="copyToClipboard('himshers.com')">کپی</button></li>
+  <li>hiresuccess.com <button onclick="copyToClipboard('hiresuccess.com')">کپی</button></li>
+  <li>hooplatickets.dev <button onclick="copyToClipboard('hooplatickets.dev')">کپی</button></li>
+  <li>housingforhealthevents.com <button onclick="copyToClipboard('housingforhealthevents.com')">کپی</button></li>
+  <li>howdypartner.net <button onclick="copyToClipboard('howdypartner.net')">کپی</button></li>
+  <li>howitendswatchnow.com <button onclick="copyToClipboard('howitendswatchnow.com')">کپی</button></li>
+  <li>iconiqascent.com <button onclick="copyToClipboard('iconiqascent.com')">کپی</button></li>
+  <li>idatalinkmaestro.com <button onclick="copyToClipboard('idatalinkmaestro.com')">کپی</button></li>
+  <li>idpcon.com <button onclick="copyToClipboard('idpcon.com')">کپی</button></li>
+  <li>internationalsocietyofcitriculture.org <button onclick="copyToClipboard('internationalsocietyofcitriculture.org')">کپی</button></li>
+  <li>jennarationboutique.com <button onclick="copyToClipboard('jennarationboutique.com')">کپی</button></li>
+  <li>kcts9.org <button onclick="copyToClipboard('kcts9.org')">کپی</button></li>
+  <li>killtonylive.com <button onclick="copyToClipboard('killtonylive.com')">کپی</button></li>
+  <li>kristenlott.com <button onclick="copyToClipboard('kristenlott.com')">کپی</button></li>
+  <li>lamp.io <button onclick="copyToClipboard('lamp.io')">کپی</button></li>
+  <li>lbfastly.com <button onclick="copyToClipboard('lbfastly.com')">کپی</button></li>
+  <li>leonidas.com <button onclick="copyToClipboard('leonidas.com')">کپی</button></li>
+  <li>lex123.com <button onclick="copyToClipboard('lex123.com')">کپی</button></li>
+  <li>lexico.com <button onclick="copyToClipboard('lexico.com')">کپی</button></li>
+  <li>lexisnexisrisk.com <button onclick="copyToClipboard('lexisnexisrisk.com')">کپی</button></li>
+  <li>lexlawaz.com <button onclick="copyToClipboard('lexlawaz.com')">کپی</button></li>
+  <li>lexlawde.com <button onclick="copyToClipboard('lexlawde.com')">کپی</button></li>
+  <li>lexlawla.com <button onclick="copyToClipboard('lexlawla.com')">کپی</button></li>
+  <li>lexlawms.com <button onclick="copyToClipboard('lexlawms.com')">کپی</button></li>
+  <li>lexlawoh.com <button onclick="copyToClipboard('lexlawoh.com')">کپی</button></li>
+  <li>lexlawsc.com <button onclick="copyToClipboard('lexlawsc.com')">کپی</button></li>
+  <li>lexlawva.com <button onclick="copyToClipboard('lexlawva.com')">کپی</button></li>
+  <li>lexlawwa.com <button onclick="copyToClipboard('lexlawwa.com')">کپی</button></li>
+  <li>lexlawwi.com <button onclick="copyToClipboard('lexlawwi.com')">کپی</button></li>
+  <li>lhasaoms.com <button onclick="copyToClipboard('lhasaoms.com')">کپی</button></li>
+  <li>lifeisbetterwithgoodcredit.com <button onclick="copyToClipboard('lifeisbetterwithgoodcredit.com')">کپی</button></li>
+  <li>lillet.com <button onclick="copyToClipboard('lillet.com')">کپی</button></li>
+  <li>lilyskitchen.com <button onclick="copyToClipboard('lilyskitchen.com')">کپی</button></li>
+  <li>linktr.ee <button onclick="copyToClipboard('linktr.ee')">کپی</button></li>
+  <li>linktree.new <button onclick="copyToClipboard('linktree.new')">کپی</button></li>
+  <li>live100blackmenmmg.online <button onclick="copyToClipboard('live100blackmenmmg.online')">کپی</button></li>
+  <li>llngd.com <button onclick="copyToClipboard('llngd.com')">کپی</button></li>
+  <li>loceryl.com <button onclick="copyToClipboard('loceryl.com')">کپی</button></li>
+  <li>lso.app <button onclick="copyToClipboard('lso.app')">کپی</button></li>
+  <li>maggi.ba <button onclick="copyToClipboard('maggi.ba')">کپی</button></li>
+  <li>maggi.bg <button onclick="copyToClipboard('maggi.bg')">کپی</button></li>
+  <li>maggi.my <button onclick="copyToClipboard('maggi.my')">کپی</button></li>
+  <li>maggi.ph <button onclick="copyToClipboard('maggi.ph')">کپی</button></li>
+  <li>maggiarabia.com <button onclick="copyToClipboard('maggiarabia.com')">کپی</button></li>
+  <li>magosedai.com <button onclick="copyToClipboard('magosedai.com')">کپی</button></li>
+  <li>mancrates.com <button onclick="copyToClipboard('mancrates.com')">کپی</button></li>
+  <li>matboardandmore.com <button onclick="copyToClipboard('matboardandmore.com')">کپی</button></li>
+  <li>material.events <button onclick="copyToClipboard('material.events')">کپی</button></li>
+  <li>mcimmersive.com <button onclick="copyToClipboard('mcimmersive.com')">کپی</button></li>
+  <li>metahealthrsvp.com <button onclick="copyToClipboard('metahealthrsvp.com')">کپی</button></li>
+  <li>microsofttrainingretreat.com <button onclick="copyToClipboard('microsofttrainingretreat.com')">کپی</button></li>
+  <li>mideastglobalsummit.com <button onclick="copyToClipboard('mideastglobalsummit.com')">کپی</button></li>
+  <li>midletonveryrarecaskcircle.com <button onclick="copyToClipboard('midletonveryrarecaskcircle.com')">کپی</button></li>
+  <li>mindvalley.biz <button onclick="copyToClipboard('mindvalley.biz')">کپی</button></li>
+  <li>minnanoshare.net <button onclick="copyToClipboard('minnanoshare.net')">کپی</button></li>
+  <li>mme.app <button onclick="copyToClipboard('mme.app')">کپی</button></li>
+  <li>modernluxuryevents.com <button onclick="copyToClipboard('modernluxuryevents.com')">کپی</button></li>
+  <li>mojrecept.rs <button onclick="copyToClipboard('mojrecept.rs')">کپی</button></li>
+  <li>mrbeasleys.com <button onclick="copyToClipboard('mrbeasleys.com')">کپی</button></li>
+  <li>mylexingtonlawstory.com <button onclick="copyToClipboard('mylexingtonlawstory.com')">کپی</button></li>
+  <li>myprintacademy.com <button onclick="copyToClipboard('myprintacademy.com')">کپی</button></li>
+  <li>nationlaw.com <button onclick="copyToClipboard('nationlaw.com')">کپی</button></li>
+  <li>nescafe.bg <button onclick="copyToClipboard('nescafe.bg')">کپی</button></li>
+  <li>nescafe.com <button onclick="copyToClipboard('nescafe.com')">کپی</button></li>
+  <li>nescafe.com.ph <button onclick="copyToClipboard('nescafe.com.ph')">کپی</button></li>
+  <li>nescafe.dk <button onclick="copyToClipboard('nescafe.dk')">کپی</button></li>
+  <li>nescafe.pt <button onclick="copyToClipboard('nescafe.pt')">کپی</button></li>
+  <li>nescafe.sk <button onclick="copyToClipboard('nescafe.sk')">کپی</button></li>
+  <li>nestlehealthscience.dk <button onclick="copyToClipboard('nestlehealthscience.dk')">کپی</button></li>
+  <li>nestlehealthscience.vn <button onclick="copyToClipboard('nestlehealthscience.vn')">کپی</button></li>
+  <li>nio-apps.com <button onclick="copyToClipboard('nio-apps.com')">کپی</button></li>
+  <li>nmgops.com <button onclick="copyToClipboard('nmgops.com')">کپی</button></li>
+  <li>nowevenfaster.com <button onclick="copyToClipboard('nowevenfaster.com')">کپی</button></li>
+  <li>nuula.com <button onclick="copyToClipboard('nuula.com')">کپی</button></li>
+  <li>nwadg.news <button onclick="copyToClipboard('nwadg.news')">کپی</button></li>
+  <li>nxdfrontend.com <button onclick="copyToClipboard('nxdfrontend.com')">کپی</button></li>
+  <li>omegaweblink.com <button onclick="copyToClipboard('omegaweblink.com')">کپی</button></li>
+  <li>oneorangefoundation.org <button onclick="copyToClipboard('oneorangefoundation.org')">کپی</button></li>
+  <li>ontariocolleges.ca <button onclick="copyToClipboard('ontariocolleges.ca')">کپی</button></li>
+  <li>openingceremonydc.com <button onclick="copyToClipboard('openingceremonydc.com')">کپی</button></li>
+  <li>orain.eus <button onclick="copyToClipboard('orain.eus')">کپی</button></li>
+  <li>orderlegend.shop <button onclick="copyToClipboard('orderlegend.shop')">کپی</button></li>
+  <li>ormco.com <button onclick="copyToClipboard('ormco.com')">کپی</button></li>
+  <li>palantir.events <button onclick="copyToClipboard('palantir.events')">کپی</button></li>
+  <li>parsonsbenefit.com <button onclick="copyToClipboard('parsonsbenefit.com')">کپی</button></li>
+  <li>partylitegifts.de <button onclick="copyToClipboard('partylitegifts.de')">کپی</button></li>
+  <li>pinterestcannes.com <button onclick="copyToClipboard('pinterestcannes.com')">کپی</button></li>
+  <li>pinterestpinvision.com <button onclick="copyToClipboard('pinterestpinvision.com')">کپی</button></li>
+  <li>powerofwomenssports.com <button onclick="copyToClipboard('powerofwomenssports.com')">کپی</button></li>
+  <li>purina.bg <button onclick="copyToClipboard('purina.bg')">کپی</button></li>
+  <li>purina.ee <button onclick="copyToClipboard('purina.ee')">کپی</button></li>
+  <li>purina.no <button onclick="copyToClipboard('purina.no')">کپی</button></li>
+  <li>purina.rs <button onclick="copyToClipboard('purina.rs')">کپی</button></li>
+  <li>pursuit.tips <button onclick="copyToClipboard('pursuit.tips')">کپی</button></li>
+  <li>quantumleapcon.com <button onclick="copyToClipboard('quantumleapcon.com')">کپی</button></li>
+  <li>quickcreditimprovement.com <button onclick="copyToClipboard('quickcreditimprovement.com')">کپی</button></li>
+  <li>radiusnetworks.com <button onclick="copyToClipboard('radiusnetworks.com')">کپی</button></li>
+  <li>rasmus.app <button onclick="copyToClipboard('rasmus.app')">کپی</button></li>
+  <li>reconnectionslocal.org <button onclick="copyToClipboard('reconnectionslocal.org')">کپی</button></li>
+  <li>redbee.dev <button onclick="copyToClipboard('redbee.dev')">کپی</button></li>
+  <li>redbrain.live <button onclick="copyToClipboard('redbrain.live')">کپی</button></li>
+  <li>redbrain.shopping <button onclick="copyToClipboard('redbrain.shopping')">کپی</button></li>
+  <li>redbrain.store <button onclick="copyToClipboard('redbrain.store')">کپی</button></li>
+  <li>restoremyreport.com <button onclick="copyToClipboard('restoremyreport.com')">کپی</button></li>
+  <li>retty.me <button onclick="copyToClipboard('retty.me')">کپی</button></li>
+  <li>revolutionit.com <button onclick="copyToClipboard('revolutionit.com')">کپی</button></li>
+  <li>revolutiontalk.net <button onclick="copyToClipboard('revolutiontalk.net')">کپی</button></li>
+  <li>ripplelabs.com <button onclick="copyToClipboard('ripplelabs.com')">کپی</button></li>
+  <li>robertwalters.pt <button onclick="copyToClipboard('robertwalters.pt')">کپی</button></li>
+  <li>robertwalters.us <button onclick="copyToClipboard('robertwalters.us')">کپی</button></li>
+  <li>robertwaltersafrica.com <button onclick="copyToClipboard('robertwaltersafrica.com')">کپی</button></li>
+  <li>rokuevents.com <button onclick="copyToClipboard('rokuevents.com')">کپی</button></li>
+  <li>routefifty.com <button onclick="copyToClipboard('routefifty.com')">کپی</button></li>
+  <li>rushlimbaugh.com <button onclick="copyToClipboard('rushlimbaugh.com')">کپی</button></li>
+  <li>rwcsrupgrade.com <button onclick="copyToClipboard('rwcsrupgrade.com')">کپی</button></li>
+  <li>s2gsummit.com <button onclick="copyToClipboard('s2gsummit.com')">کپی</button></li>
+  <li>sactownhall2024.com <button onclick="copyToClipboard('sactownhall2024.com')">کپی</button></li>
+  <li>safervpn.biz <button onclick="copyToClipboard('safervpn.biz')">کپی</button></li>
+  <li>sakshinarang.net <button onclick="copyToClipboard('sakshinarang.net')">کپی</button></li>
+  <li>saltonebula.com <button onclick="copyToClipboard('saltonebula.com')">کپی</button></li>
+  <li>samsara-events.com <button onclick="copyToClipboard('samsara-events.com')">کپی</button></li>
+  <li>sandiagolfclub.com <button onclick="copyToClipboard('sandiagolfclub.com')">کپی</button></li>
+  <li>sbud.com <button onclick="copyToClipboard('sbud.com')">کپی</button></li>
+  <li>scotchbrandgiftingsuite.com <button onclick="copyToClipboard('scotchbrandgiftingsuite.com')">کپی</button></li>
+  <li>seattlecca.com <button onclick="copyToClipboard('seattlecca.com')">کپی</button></li>
+  <li>securitieslawfirm.com <button onclick="copyToClipboard('securitieslawfirm.com')">کپی</button></li>
+  <li>sfm.us <button onclick="copyToClipboard('sfm.us')">کپی</button></li>
+  <li>shopaddi.com <button onclick="copyToClipboard('shopaddi.com')">کپی</button></li>
+  <li>shopdiscountdivas.com <button onclick="copyToClipboard('shopdiscountdivas.com')">کپی</button></li>
+  <li>shopflauntboutique.com <button onclick="copyToClipboard('shopflauntboutique.com')">کپی</button></li>
+  <li>shopistic.com <button onclick="copyToClipboard('shopistic.com')">کپی</button></li>
+  <li>shoptarahsutton.com <button onclick="copyToClipboard('shoptarahsutton.com')">کپی</button></li>
+  <li>sienasleep.com <button onclick="copyToClipboard('sienasleep.com')">کپی</button></li>
+  <li>six.app <button onclick="copyToClipboard('six.app')">کپی</button></li>
+  <li>smoothfriend.press <button onclick="copyToClipboard('smoothfriend.press')">کپی</button></li>
+  <li>song.link <button onclick="copyToClipboard('song.link')">کپی</button></li>
+  <li>sp-acceptance.net <button onclick="copyToClipboard('sp-acceptance.net')">کپی</button></li>
+  <li>sp.trade <button onclick="copyToClipboard('sp.trade')">کپی</button></li>
+  <li>sparkylabs.photo <button onclick="copyToClipboard('sparkylabs.photo')">کپی</button></li>
+  <li>splashdevelop.com <button onclick="copyToClipboard('splashdevelop.com')">کپی</button></li>
+  <li>spofadental.com <button onclick="copyToClipboard('spofadental.com')">کپی</button></li>
+  <li>starbucksathome.com <button onclick="copyToClipboard('starbucksathome.com')">کپی</button></li>
+  <li>startup-insider.com <button onclick="copyToClipboard('startup-insider.com')">کپی</button></li>
+  <li>stlawrencecollege.ca <button onclick="copyToClipboard('stlawrencecollege.ca')">کپی</button></li>
+  <li>stripe.events <button onclick="copyToClipboard('stripe.events')">کپی</button></li>
+  <li>stylerange.com <button onclick="copyToClipboard('stylerange.com')">کپی</button></li>
+  <li>sunrise-collective.org <button onclick="copyToClipboard('sunrise-collective.org')">کپی</button></li>
+  <li>swiftypestatus.com <button onclick="copyToClipboard('swiftypestatus.com')">کپی</button></li>
+  <li>synocommunity.com <button onclick="copyToClipboard('synocommunity.com')">کپی</button></li>
+  <li>tangeloparklawsuit.com <button onclick="copyToClipboard('tangeloparklawsuit.com')">کپی</button></li>
+  <li>teads.events <button onclick="copyToClipboard('teads.events')">کپی</button></li>
+  <li>teamster.org <button onclick="copyToClipboard('teamster.org')">کپی</button></li>
+  <li>techgcmaforum.com <button onclick="copyToClipboard('techgcmaforum.com')">کپی</button></li>
+  <li>teleberri.com <button onclick="copyToClipboard('teleberri.com')">کپی</button></li>
+  <li>theatlantic.com <button onclick="copyToClipboard('theatlantic.com')">کپی</button></li>
+  <li>theatln.tc <button onclick="copyToClipboard('theatln.tc')">کپی</button></li>
+  <li>theblocsciencefoundry.com <button onclick="copyToClipboard('theblocsciencefoundry.com')">کپی</button></li>
+  <li>theblocvaluebuilders.com <button onclick="copyToClipboard('theblocvaluebuilders.com')">کپی</button></li>
+  <li>theconvivialist.com <button onclick="copyToClipboard('theconvivialist.com')">کپی</button></li>
+  <li>thedigitailor.com <button onclick="copyToClipboard('thedigitailor.com')">کپی</button></li>
+  <li>thefork.dk <button onclick="copyToClipboard('thefork.dk')">کپی</button></li>
+  <li>themat.com <button onclick="copyToClipboard('themat.com')">کپی</button></li>
+  <li>thetylt.com <button onclick="copyToClipboard('thetylt.com')">کپی</button></li>
+  <li>thewire.com <button onclick="copyToClipboard('thewire.com')">کپی</button></li>
+  <li>thudio.org <button onclick="copyToClipboard('thudio.org')">کپی</button></li>
+  <li>truffaut.city <button onclick="copyToClipboard('truffaut.city')">کپی</button></li>
+  <li>trustedcreditfix.com <button onclick="copyToClipboard('trustedcreditfix.com')">کپی</button></li>
+  <li>turnitin.com <button onclick="copyToClipboard('turnitin.com')">کپی</button></li>
+  <li>ufc.com <button onclick="copyToClipboard('ufc.com')">کپی</button></li>
+  <li>ufc.ru <button onclick="copyToClipboard('ufc.ru')">کپی</button></li>
+  <li>ufcespanol.com <button onclick="copyToClipboard('ufcespanol.com')">کپی</button></li>
+  <li>ufldefenders.com <button onclick="copyToClipboard('ufldefenders.com')">کپی</button></li>
+  <li>uflpanthers.com <button onclick="copyToClipboard('uflpanthers.com')">کپی</button></li>
+  <li>usa-taekwondo.us <button onclick="copyToClipboard('usa-taekwondo.us')">کپی</button></li>
+  <li>usafencing.net <button onclick="copyToClipboard('usafencing.net')">کپی</button></li>
+  <li>usafencing.org <button onclick="copyToClipboard('usafencing.org')">کپی</button></li>
+  <li>usaluge.org <button onclick="copyToClipboard('usaluge.org')">کپی</button></li>
+  <li>usankf.org <button onclick="copyToClipboard('usankf.org')">کپی</button></li>
+  <li>usparacycling.org <button onclick="copyToClipboard('usparacycling.org')">کپی</button></li>
+  <li>usparalympicsswimming.org <button onclick="copyToClipboard('usparalympicsswimming.org')">کپی</button></li>
+  <li>usparalympicstf.org <button onclick="copyToClipboard('usparalympicstf.org')">کپی</button></li>
+  <li>usparalympicstrackandfield.org <button onclick="copyToClipboard('usparalympicstrackandfield.org')">کپی</button></li>
+  <li>usparaswimming.org <button onclick="copyToClipboard('usparaswimming.org')">کپی</button></li>
+  <li>usparatrackandfield.org <button onclick="copyToClipboard('usparatrackandfield.org')">کپی</button></li>
+  <li>ustudiopages.com <button onclick="copyToClipboard('ustudiopages.com')">کپی</button></li>
+  <li>uwaterloo.ca <button onclick="copyToClipboard('uwaterloo.ca')">کپی</button></li>
+  <li>vaneckevents.com <button onclick="copyToClipboard('vaneckevents.com')">کپی</button></li>
+  <li>velilla-group.com <button onclick="copyToClipboard('velilla-group.com')">کپی</button></li>
+  <li>vice.video <button onclick="copyToClipboard('vice.video')">کپی</button></li>
+  <li>vicestudiosgroup.com <button onclick="copyToClipboard('vicestudiosgroup.com')">کپی</button></li>
+  <li>videostreamer.net <button onclick="copyToClipboard('videostreamer.net')">کپی</button></li>
+  <li>vmgrestructuring.com <button onclick="copyToClipboard('vmgrestructuring.com')">کپی</button></li>
+  <li>voguebusinessstaging.com <button onclick="copyToClipboard('voguebusinessstaging.com')">کپی</button></li>
+  <li>vroom.pics <button onclick="copyToClipboard('vroom.pics')">کپی</button></li>
+  <li>wahoofitness.com <button onclick="copyToClipboard('wahoofitness.com')">کپی</button></li>
+  <li>wallawallasothebysinternationalrealty.com <button onclick="copyToClipboard('wallawallasothebysinternationalrealty.com')">کپی</button></li>
+  <li>warriors.kiwi <button onclick="copyToClipboard('warriors.kiwi')">کپی</button></li>
+  <li>wcms.dev <button onclick="copyToClipboard('wcms.dev')">کپی</button></li>
+  <li>whereisourgold.com <button onclick="copyToClipboard('whereisourgold.com')">کپی</button></li>
+  <li>wikia.dev <button onclick="copyToClipboard('wikia.dev')">کپی</button></li>
+  <li>wmuesports.com <button onclick="copyToClipboard('wmuesports.com')">کپی</button></li>
+  <li>wppexperiences.com <button onclick="copyToClipboard('wppexperiences.com')">کپی</button></li>
+  <li>wsjprocyberwebinars.com <button onclick="copyToClipboard('wsjprocyberwebinars.com')">کپی</button></li>
+  <li>xflroughnecks.com <button onclick="copyToClipboard('xflroughnecks.com')">کپی</button></li>
+  <li>xn--3dsyxn9m4v1d.com <button onclick="copyToClipboard('xn--3dsyxn9m4v1d.com')">کپی</button></li>
+  <li>xn--rdekors-q1a.dk <button onclick="copyToClipboard('xn--rdekors-q1a.dk')">کپی</button></li>
+  <li>youthonrecord.org <button onclick="copyToClipboard('youthonrecord.org')">کپی</button></li>
+  <li>zennailandbar.com <button onclick="copyToClipboard('zennailandbar.com')">کپی</button></li>
+  <li>zondratv.com <button onclick="copyToClipboard('zondratv.com')">کپی</button></li>
+</ul>
 </body>
 </html>
