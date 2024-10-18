@@ -1,25 +1,15 @@
-import tkinter as tk
-import pyperclip
+\`\`\`bash
+sudo bash -c "$(curl -sL https://github.com/Gozargah/Marzban-scripts/raw/master/marzban.sh)" @ install
+\`\`\`
+<button onclick="copyToClipboard()">Copy</button>
 
-def copy_to_clipboard():
-    text = text_area.get("1.0", "end-1c")  # گرفتن متن از text area
-    pyperclip.copy(text)
-    label.config(text="متن به کلیپ‌بورد کپی شد.")
-
-# ایجاد پنجره
-window = tk.Tk()
-window.title("کپی دامنه‌ها به گیت‌هاب")
-
-# ایجاد یک text area برای وارد کردن دامنه‌ها
-text_area = tk.Text(window)
-text_area.pack()
-
-# ایجاد دکمه برای کپی کردن
-copy_button = tk.Button(window, text="کپی به کلیپ‌بورد", command=copy_to_clipboard)
-copy_button.pack()
-
-# ایجاد یک label برای نمایش پیام
-label = tk.Label(window)
-label.pack()
-
-window.mainloop()
+<script>
+function copyToClipboard() {
+  var copyText = document.querySelector("code").textContent;
+  navigator.clipboard.writeText(copyText).then(function() {
+    alert('Copied to clipboard');
+  }, function(err) {
+    alert('Failed to copy');
+  });
+}
+</script>
