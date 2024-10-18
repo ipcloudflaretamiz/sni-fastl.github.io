@@ -10,6 +10,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
 </head>
 <body>
-<pre><code class="language-bash">sudo bash -c "$(curl -sL https://github.com/Gozargah/Marzban-scripts/raw/master/marzban.sh)" @ install</code></pre>
+<pre><code class="language-bash">mmmdm.ir</code></pre>
 </body>
 </html>
